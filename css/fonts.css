@@ -1,17 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
-*{
-    font-family: "Lato", sans-serif;
+* {
+  font-family: "Lato", sans-serif;
 }
 
-header a{
-    color: rgb(149, 149, 149);
-    text-decoration: none;
-    display: inline-block;
-    transition: .2s;
+header a {
+  color: rgb(149, 149, 149);
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
 }
 
-header a:hover{
-    color: white;
-    transform: scale(1.05);
+header a:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+.txt-topo h1 {
+  color: white;
+  font-size: 42px;
+  line-height: 40px;
+}
+
+.txt-topo h1 span {
+  color: rgb(230, 195, 1);
+}
+
+.txt-topo p {
+  color: white;
+  margin: 40px 0;
+}
+
+.titulo-especialidades h2 {
+  color: white;
+  font-size: 38px;
+  text-align: center;
+}
+
+h2 span {
+  color: rgb(230, 195, 1);
+}
+
+.especialidades-box i {
+  font-size: 70px;
+  color: rgb(230, 195, 1);
+}
+.especialidades-box h3 {
+  font-size: 26px;
+  margin: 15px;
+}
+
+.titulo-sobre {
+  font-size: 40px;
+}
+
+.titulo-sobre span {
+  color: rgb(230, 195, 1);
+  display: block;
 }
