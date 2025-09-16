@@ -2,6 +2,7 @@
 
 * {
   font-family: "Lato", sans-serif;
+  color: white;
 }
 
 header a {
@@ -31,7 +32,7 @@ header a:hover {
   margin: 40px 0;
 }
 
-.titulo-especialidades h2 {
+.titulo-especialidades {
   color: white;
   font-size: 38px;
   text-align: center;
@@ -52,9 +53,22 @@ h2 span {
 
 .titulo-sobre {
   font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
 }
 
 .titulo-sobre span {
   color: rgb(230, 195, 1);
   display: block;
+}
+
+.txt-sobre p{
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.titulo-documentacao {
+  color: white;
+  font-size: 38px;
+  text-align: center;
 }
